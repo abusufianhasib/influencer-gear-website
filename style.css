@@ -18,6 +18,29 @@ body{
     border-radius: 41px;
     font-weight: 700;
 }
+.btn-secondary{
+    background: #E02C6D;
+    color: #fff;
+    align-items: center;
+    padding: 10px 24px;
+    border: none;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+}
+.btn-third{
+    text-align: end;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #E02C6D;
+    background: #fff;
+    align-items: center;
+    padding: 10px 24px;
+    border: none;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+}
 
 /* Nav Starts here */
 nav{
@@ -99,6 +122,67 @@ main{
 .brand-section img{
     width: 100px;
 }
+/* Product Section Starts here */
+.products-section-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+.products-section{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10vh;
+
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 329px;
+    margin-bottom: 10px;
+}
+.product h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.product h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.product p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #787885;
+}
+
+
+/* Featured Product Section */
+.featured-product{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 4vw;
+    height: 27vh;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+.featured-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+/* Footer */
+
+
 
 
 
